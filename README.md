@@ -21,13 +21,13 @@ The goals of this project are the following:
 * Reflect on this work in this written report ([README.md])
 
 The project pipeline uses the following directories containing image and video files:
-[/test_images/](/test_images/): Directory containing test image files
-[/test_images_output/](/test_images_output/): Directory containing output of processed test image files
-[/test_videos/](/test_videos/): Directory containing test video files
-[/test_videos_output/](/test/videos_output/): Directory containing output of processed test video files
+- [/test_images/](/test_images/): Directory containing test image files
+- [/test_images_output/](/test_images_output/): Directory containing output of processed test image files
+- [/test_videos/](/test_videos/): Directory containing test video files
+- [/test_videos_output/](/test/videos_output/): Directory containing output of processed test video files
 
 The project is run in a Jupyter notebook:
-[/P1.ipynb](/P1.ipynb): Jupyter notebook containing Python code to run the image processing pipeline
+- [/P1.ipynb](/P1.ipynb): Jupyter notebook containing Python code to run the image processing pipeline
 
 <!-- [/examples/]: # (Example Images) -->
 <!-- [image1]: ./examples/grayscale.jpg "Grayscale" -->
@@ -73,9 +73,9 @@ The Project Setup and General Instructions
 
 ### Reflection
 
-### 1. Describe your pipeline. As part of the description, explain how you modified the draw_lines() function.
+### 1. Describe the pipeline. Explain how the function `draw_lines()` was modified.
 
-The project pipeline consists of 5 steps:
+The project pipeline consists of 6 steps:
 
 1. Convert images to grayscale
 2. Apply a Gaussian blur to the grayscale images to subdue noise
@@ -99,7 +99,7 @@ In order to draw a single line on the left and right lanes in the image, the giv
 5. The detected left lane overlay was drawn in green, and the detected right lane overlay was drawn in red
 
 <!-- If you'd like to include images to show how the pipeline works, here is how to include an image: -->
-The Jupyter notebook, [/P1.ipynb](/P1.ipynb), demonstrates the process of the pipeline operated on the still images with the following output:
+The Jupyter notebook, [/P1.ipynb](P1.ipynb), demonstrates the process of the pipeline operated on the still images with the following output:
 
 1. The original image
 2. The image after the grayscale conversion, Gaussian blur, Canny filter, and roi are applied
