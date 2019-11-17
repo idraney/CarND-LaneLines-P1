@@ -73,7 +73,7 @@ The Project Setup and General Instructions
 
 ### Reflection
 
-### 1. Describe the pipeline. Explain how the function `draw_lines()` was modified.
+### 1. Pipeline Description
 
 The project pipeline consists of 6 steps:
 
@@ -111,7 +111,7 @@ The Jupyter notebook, [/P1.ipynb](P1.ipynb), demonstrates the process of the pip
 <!-- ![alt text][image1] -->
 
 
-### 2. Potential shortcomings with the current pipeline
+### 2. Potential Shortcomings with the Current Pipeline
 
 **Region of Interest**
 The roi is statically assigned.  This could possibly lead to undesired results when driving with steep grades (uphill/downhill) or taking sharp corners.
