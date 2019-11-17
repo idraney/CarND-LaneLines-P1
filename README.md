@@ -1,8 +1,9 @@
 # **Finding Lane Lines on the Road** 
 [![Udacity - Self-Driving Car NanoDegree](https://s3.amazonaws.com/udacity-sdc/github/shield-carnd.svg)](http://www.udacity.com/drive)
 
-<img src="examples/laneLines_thirdPass.jpg" width="480" alt="Combined Image" />
-<img src="test_images_output/solidWhiteRight.jpg" width="480" alt="Combined Image" />
+<img src="examples/laneLines_thirdPass.jpg" width="480" alt="Udacity Combined Image" />
+<img src="test_images_output/solidYellowLeft.jpg" width="480" alt="My Combined Image" />
+
 Overview
 ---
 
@@ -146,3 +147,4 @@ Drastic changes would likely be in order in regard to the image processing param
 <!-- ## How to write a README -->
 <!-- A well written README file can enhance your project and portfolio.  Develop your abilities to create professional README files by completing [this free course](https://www.udacity.com/course/writing-readmes--ud777). -->
 
+<video width="960" height="540" controls><source src="test_videos_output/solidWhiteRight.mp4"></video>
