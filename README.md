@@ -151,3 +151,5 @@ HTML("""
   <source src="test_videos_output/solidWhiteRight.mp4">
 </video>
 """.format(white_output))
+
+<iframe src="//player.vimeo.com/video/19339941" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
