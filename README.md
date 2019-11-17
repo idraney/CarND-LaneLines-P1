@@ -18,13 +18,13 @@ Overview
 
 The goals of this project are the following:
 * Make a pipeline that finds lane lines on the road in image and video files
-* Reflect on this work in this written report ([README.md])
+* Reflect on this work in this written report ([/README.md](/README.md))
 
 The project pipeline uses the following directories containing image and video files:
 - [/test_images/](/test_images/): Directory containing test image files
 - [/test_images_output/](/test_images_output/): Directory containing output of processed test image files
 - [/test_videos/](/test_videos/): Directory containing test video files
-- [/test_videos_output/](/test/videos_output/): Directory containing output of processed test video files
+- [/test_videos_output/](/test_videos_output/): Directory containing output of processed test video files
 
 The project is run in a Jupyter notebook:
 - [/P1.ipynb](/P1.ipynb): Jupyter notebook containing Python code to run the image processing pipeline
