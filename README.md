@@ -115,12 +115,15 @@ The Jupyter notebook, [/P1.ipynb](P1.ipynb), demonstrates the process of the pip
 ### 2. Potential Shortcomings with the Current Pipeline
 
 **Region of Interest**
+
 The roi is statically assigned.  This could possibly lead to undesired results when driving with steep grades (uphill/downhill) or taking sharp corners.
 
 **Code Sophistication**
+
 The `draw_lines()` function sums the totals of the `x1`, `y1`, `x2`, and `y2`, values in a loop.  After the loop is complete, the summed values are divided by the counted number of lines to acquire an average (i.e., statistical mean).  
 
 **Optional Challenge**
+
 Shortcomings of the project code can be seen in the Optional Challenge.  The images in the Optional Challenge video show a very different field of view, resulting in the `draw_lines()` function outputting lines that do not match the lanes on the road. 
 
 <!--One potential shortcoming would be what would happen when ...  -->
@@ -133,12 +136,15 @@ Shortcomings of the project code can be seen in the Optional Challenge.  The ima
 Possible improvements to the pipeline are stated in regard to its observed shortcomings.
 
 **Region of Interest**
+
 Finding a way to dynamically assign a region of interest based on an Hough transformation "pre-processing" could improve lane lane detection under a greater variety of driving scenarios.
 
 **Code Sophistication**
+
 While the method used in the current `draw_lines()` function code works sufficiently for the provided examples (with the exception of the Optional Challenge), processing cost could possibly be improved with an average calculation and zero-slope data elimination by the use of `numpy.nanmean`.  
 
 **Optional Challenge**
+
 Drastic changes would likely be in order in regard to the image processing parameters (Gaussian blur, Canny edge detection, roi masking, and Hough transformation) to find the proper lane lines in both the test images/videos, as well as the Optional Challenge video.
 
 <!-- A possible improvement would be to ... -->
